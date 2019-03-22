@@ -17,14 +17,16 @@ These projects are written in C# and compiled with .Net 4.7.2, x86 target on a 6
 The input data files are expected to be Meta Trader 4 history files. However, you can use anything that follows the MT4 layout: date, time, open, high, low, close, volume. You can get this data elsewhere online or from other Forex platforms. The expected file format is standard comma delimited csv files.
 
 ## **Using them**
-***
-**Forex Data Generator**
+
+**Forex Test Data Generator**
 
 ![C:\Development\GitHub repository work area\Forex-Indicator-Data-Generators\images\Fdg_snapshot.png](images/Fdg_snapshot)
 
 This is the one I wrote specifically for input to my Python ANN work. The choices were mostly dictated by a couple Ph.D. papers that indicated some success with a few of these and then I added some very common types to test for usefulness depending on whether or not one is trying a classification or a regression analysis.
 
 As you can see the interface is very flexible as to what comes out. You can do a simple Close price output, or the full list. I have tried to include all the common indicators you find in MT4 and MT5 but there isn't room for everything. I am including some other apps that can add some additional indicators if you like.
+
+The generator output is a standard comma delimited csv file. This way you can inspect the output with a simple text word processor like Notepad or Notepad++.
 
 
 ## License
