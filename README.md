@@ -36,7 +36,7 @@ Forex Indicator Data Generators project is licensed under GNU GENERAL PUBLIC LIC
 ## Contribution
 
 To report an issue use the GitHub issue tracker. Please provide as much information as you can.
-Contributions are always welcome. Open an issue to contact me. The preferred method of contribution is through a github pull request. 
+Contributions are always welcome. Open an issue to contact me. The preferred method of contribution is through a GitHub pull request. 
 
 
 ## **What's next**
