@@ -5,7 +5,6 @@ I wrote these some long time back when I was using MS Sql Server and then MySQL 
 I did not convert these apps to use either SQLite or csv files as I wrote another app and it does, as well as consolidating the generators into one app. I am combing through these to ensure they all work with MySQL Server. If I don't refactor any of them I'll leave a note here about it.
 
 ## Operational notes
-<hr>
 
 **Server Names**
 
