@@ -21,7 +21,7 @@ First off, the server list in the apps needs to be updated to your server host n
     </setting>
 ```
 
-Just add to the list of strings using the pattern you see here with server names or edit the one you find there. If your server is on a port other than 3306, then you need to add the port number to the server name separated by a colon, like this - "myserverhostname:3309". Note there are no quote marks around the string value in the config file.
+Use a plain text editor like Notepad or Notepad++ to work with this file. Just add to the list of strings using the pattern you see here with server names or edit the one you find there. If your server is on a port other than 3306, then you need to add the port number to the server name separated by a colon, like this - "myserverhostname:3309". Note there are no quote marks around the string value in the config file.
 
 **Username and Password**
 
@@ -29,4 +29,4 @@ You'll find those two items in the config file as well. You can set them to what
 
 **User Settings section**
 
-don't worry about the values found there. They will be changed by the program with you change them in the application.
+don't worry about the values found there. They will be changed by the program when you change them in the application.
