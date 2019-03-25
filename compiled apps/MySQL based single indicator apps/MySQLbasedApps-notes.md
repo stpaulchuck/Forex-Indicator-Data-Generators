@@ -2,7 +2,7 @@
 
 I wrote these some long time back when I was using MS Sql Server and then MySQL Server as data holders for several desktop apps I created to analyze Forex currency pair price data looking for patterns to increase my win/loss ratio. SQLite was not considered professional at the time and csv files were frowned upon for serious work. Times change.
 
-I did not convert these apps to use either SQLite or csv files as I wrote another app and it does, as well as consolidating the generators into one app. I am combing through them to ensure they all work with MySQL Server. If I don't refactor any of them I'll leave a note here about it.
+I did not convert these apps to use either SQLite or csv files as I wrote another app and it does, as well as consolidating the generators into one app. I am combing through these to ensure they all work with MySQL Server. If I don't refactor any of them I'll leave a note here about it.
 
 ## Operational notes
 
