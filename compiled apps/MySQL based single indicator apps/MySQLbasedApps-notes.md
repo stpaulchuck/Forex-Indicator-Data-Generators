@@ -5,6 +5,9 @@ I wrote these some long time back when I was using MS Sql Server and then MySQL 
 I did not convert these apps to use either SQLite or csv files as I wrote another app and it does, as well as consolidating the generators into one app. I am combing through these to ensure they all work with MySQL Server. If I don't refactor any of them I'll leave a note here about it.
 
 ## Operational notes
+<hr>
+
+**Server Names**
 
 First off, the server list in the apps. It is found in the [applicationname].exe.config file. It has this pattern and is located in the `<applicationSettings>` section.
 
@@ -18,3 +21,5 @@ First off, the server list in the apps. It is found in the [applicationname].exe
         </value>
     </setting>
 ```
+
+Just add to list of strings with server names or edit the one you find there. If your server is on a port other than 3306, then you need to add the port number to the server name separated by a colon, like this - "myserverhostname:3309".
