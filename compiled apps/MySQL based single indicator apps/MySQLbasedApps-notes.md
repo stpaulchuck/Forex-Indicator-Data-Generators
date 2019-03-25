@@ -6,7 +6,7 @@ I did not convert these apps to use either SQLite or csv files as I wrote anothe
 
 ## Operational notes
 
-First off, the server list in the apps. It is found in the [applicationname].exe.config file. It has this pattern and is located in the <span style="color:blue">`<applicationSettings>`</span> section.
+First off, the server list in the apps. It is found in the [applicationname].exe.config file. It has this pattern and is located in the `<applicationSettings>` section.
 
 ```html
     <setting name="ServerList" serializeAs="Xml">
