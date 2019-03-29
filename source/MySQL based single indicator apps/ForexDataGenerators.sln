@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCIGenerator", "CCIGenerator\CCIGenerator.csproj", "{3DE41AA6-EBFE-4B56-B362-87F7933DD15B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeikenAshiGenerator", "HeikenAshiGenerator\HeikenAshiGenerator.csproj", "{46C52A2D-AC73-4DF7-BA91-98A8DA59102D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IchimokuGenerator", "IchimokuGenerator\IchimokuGenerator.csproj", "{D01C3978-D59D-4769-95C2-C3209AFE8388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RVIGenerator", "RVIGenerator\RVIGenerator.csproj", "{B2EA5E3D-9832-49B0-9093-6E1022DFA12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrixGenerator", "TrixGenerator\TrixGenerator.csproj", "{4E1D67CE-7C05-45C2-9D0E-74CCBE18B017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT4 History Reader MySql", "MT4 History Reader MySql\MT4 History Reader MySql.csproj", "{CA03445F-3545-4908-AB9C-39A8F7912BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StochasticsGenerator.cs", "StochasticsGenerator.cs\StochasticsGenerator.cs.csproj", "{048968F9-1A32-4C34-AD89-49001717BFF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE41AA6-EBFE-4B56-B362-87F7933DD15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE41AA6-EBFE-4B56-B362-87F7933DD15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE41AA6-EBFE-4B56-B362-87F7933DD15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE41AA6-EBFE-4B56-B362-87F7933DD15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C52A2D-AC73-4DF7-BA91-98A8DA59102D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C52A2D-AC73-4DF7-BA91-98A8DA59102D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C52A2D-AC73-4DF7-BA91-98A8DA59102D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C52A2D-AC73-4DF7-BA91-98A8DA59102D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01C3978-D59D-4769-95C2-C3209AFE8388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01C3978-D59D-4769-95C2-C3209AFE8388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01C3978-D59D-4769-95C2-C3209AFE8388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01C3978-D59D-4769-95C2-C3209AFE8388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2EA5E3D-9832-49B0-9093-6E1022DFA12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2EA5E3D-9832-49B0-9093-6E1022DFA12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2EA5E3D-9832-49B0-9093-6E1022DFA12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2EA5E3D-9832-49B0-9093-6E1022DFA12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1D67CE-7C05-45C2-9D0E-74CCBE18B017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1D67CE-7C05-45C2-9D0E-74CCBE18B017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1D67CE-7C05-45C2-9D0E-74CCBE18B017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1D67CE-7C05-45C2-9D0E-74CCBE18B017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA03445F-3545-4908-AB9C-39A8F7912BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA03445F-3545-4908-AB9C-39A8F7912BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA03445F-3545-4908-AB9C-39A8F7912BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA03445F-3545-4908-AB9C-39A8F7912BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048968F9-1A32-4C34-AD89-49001717BFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048968F9-1A32-4C34-AD89-49001717BFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048968F9-1A32-4C34-AD89-49001717BFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048968F9-1A32-4C34-AD89-49001717BFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F92E743B-7582-4690-AE26-6801E7667213}
+	EndGlobalSection
+EndGlobal

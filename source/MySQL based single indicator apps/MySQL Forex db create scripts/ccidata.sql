@@ -1,0 +1,10 @@
+CREATE TABLE `ccidata` (
+  `PairName` char(10) NOT NULL,
+  `period` int(11) NOT NULL,
+  `BarTime` datetime NOT NULL,
+  `EntryCCI` double NOT NULL,
+  `TrendCCI` double NOT NULL,
+  `GoldBar` tinyint(1) DEFAULT NULL,
+  `TrendCCIcolor` varchar(16) DEFAULT NULL,
+  `EntryCCIdirection` varchar(16) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
