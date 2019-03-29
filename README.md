@@ -5,7 +5,7 @@
 
 ## **Introduction**
 
-I built these applications so I could create csv files of Forex indicator data that I could input to my Python based Artificial Neural Networks. The main one, Forex Test Data Generator, was specifically written for that use.
+I built the most recent applications so I could create csv files of Forex indicator data that I could input to my Python based Artificial Neural Networks. The main one, Forex Test Data Generator, was specifically written for that use.
 
 The others I created much earlier for desktop apps I wrote to analyse Forex pair price patterns to improve my win/loss ratio in trading them.
 
