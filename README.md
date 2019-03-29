@@ -12,7 +12,7 @@ The others I created much earlier for desktop apps I wrote to analyse Forex pair
 ## **About the projects**
 
 
-These projects are written in C# and compiled with .Net 4.7.2, x86 target on a 64 bit Windows 7 Pro platform using Visual Studio 2017. Everything in them is standard Windows Forms based technology. There are no third party tools or objects.
+These projects are written in C# and compiled with .Net 4.7.2, x86 target on a 64 bit Windows 7 Pro platform using Visual Studio 2017. Everything in them is standard Windows Forms based technology. There are no third party tools or objects other than SQLite and MySQL databases.
 
 The input data files are expected to be Meta Trader 4 history files. However, you can use anything that follows the MT4 layout: date, time, open, high, low, close, volume. You can get this data elsewhere online or from other Forex platforms. The expected file format is standard comma delimited csv files. MetaTrader does not put a column names header in the file but you may do so if your downstream app can handle it. I do it so I can call columns by their name. Look at the sample input files for examples of MT4 format.
 
